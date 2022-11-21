@@ -17,7 +17,7 @@
   margin-right: auto;
 }
 
-.navbar button {
+button {
   cursor: pointer;
   background-color: #ff9797;
   color: white;
@@ -56,6 +56,66 @@
   min-height: calc(100vh - 120px);
   padding: 20px;
   border-radius: 16px;
+}
+
+.toggle-test-02 {
+  cursor: pointer;
+  background-color: #ff9797;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #ff9797;
+  padding: 8px 12px;
+}
+.toggle-test-02.A {
+  border-radius: 20px 0 0 20px;
+}
+.toggle-test-02.B {
+  border-radius: 0 20px 20px 0;
+}
+.toggle-test-02.current {
+  background-color: #fec6c5 !important;
+  border-color: #fec6c5 !important;
+  box-shadow: 0px 4px 14px -5px rgba(254, 198, 197, 0.76) !important;
+  -webkit-box-shadow: 0px 4px 14px -5px rgba(254, 198, 197, 0.76) !important;
+  -moz-box-shadow: 0px 4px 14px -5px rgba(254, 198, 197, 0.76) !important;
+}
+
+.room-checker > h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.room-checker > button {
+  margin-top: 16px !important;
+  padding: 4px !important;
+}
+
+.input-time-box {
+  margin: 12px 0;
+}
+
+.input-time-box > h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.input-time-box > input {
+  margin-right: 12px;
+}
+
+.week-booking-box label {
+  display: block;
+  margin-bottom: 24px;
+}
+.week-booking-box label > span {
+  margin-right: 6px;
+}
+.week-booking-box > button {
+  margin-top: 16px !important;
+  padding: 4px !important;
+}
+.result > h3 {
+  color: #ff9797;
 }
 
 @media screen and (max-width: 1280px) {

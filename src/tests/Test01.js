@@ -42,7 +42,11 @@ function Test01() {
       <h1>Everyone's Photos</h1>
       <div className="pic-container">
         {pictures.map((pic) => (
-          <Pic src={pic.download_url} alt={`author: ${pic.author}`} />
+          <Pic
+            key={pic.id}
+            src={pic.download_url}
+            alt={`author: ${pic.author}`}
+          />
         ))}
       </div>
     </div>

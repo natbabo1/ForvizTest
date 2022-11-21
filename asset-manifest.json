@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ForvizTest/static/css/main.aeb2723b.css",
-    "main.js": "/ForvizTest/static/js/main.93ca8f49.js",
+    "main.js": "/ForvizTest/static/js/main.a3576519.js",
     "static/js/787.e0576a52.chunk.js": "/ForvizTest/static/js/787.e0576a52.chunk.js",
     "index.html": "/ForvizTest/index.html",
     "main.aeb2723b.css.map": "/ForvizTest/static/css/main.aeb2723b.css.map",
-    "main.93ca8f49.js.map": "/ForvizTest/static/js/main.93ca8f49.js.map",
+    "main.a3576519.js.map": "/ForvizTest/static/js/main.a3576519.js.map",
     "787.e0576a52.chunk.js.map": "/ForvizTest/static/js/787.e0576a52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeb2723b.css",
-    "static/js/main.93ca8f49.js"
+    "static/js/main.a3576519.js"
   ]
 }

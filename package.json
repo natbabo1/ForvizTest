@@ -2,7 +2,7 @@
   "name": "rutsarun_test",
   "version": "0.1.0",
   "private": true,
-  "hopmepage": "http://natbabo1.github.io/ForvizTest",
+  "homepage": "https://natbabo1.github.io/ForvizTest",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

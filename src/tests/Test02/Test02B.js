@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import bookingDemo from "../utils/demo-booking-data.json";
+import bookingDemo from "../../utils/demo-booking-data.json";
 
 function Test02B() {
   const [todayBookings, setTodayBookings] = useState([]);
@@ -59,13 +59,11 @@ function Test02B() {
       const start = new Date(item.startTime);
       const end = new Date(item.endTime);
 
-      console.log(start, end);
       if (today === start.getDate() || today === end.getDate()) {
         result.today.push(item);
       }
       if (checkInWeek(startDateThisWeek, start, end)) {
         result.thisWeek.push(item);
-        console.log(item);
       }
       if (checkInWeek(startDateNextWeek, start, end)) {
         result.nextWeek.push(item);

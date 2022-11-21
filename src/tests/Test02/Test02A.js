@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from "react";
-import bookingDemo from "../utils/demo-booking-data.json";
-import timeArray from "../utils/timeArray.json";
+import bookingDemo from "../../utils/demo-booking-data.json";
+import timeArray from "../../utils/timeArray.json";
 
 function Test02A() {
   const [booking] = useState(bookingDemo);
